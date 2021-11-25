@@ -46,7 +46,7 @@ public class ConstructorChain {
 }   
 ```
 
-***Q.3) Why constructor cannot be final, static, abstract? ***
+***Q.3) Why constructor cannot be final, static, abstract?***
 
 ```
 We know static keyword belongs to a class rather than the object of a class. A constructor is called when an object of a class is created, so no use of the static constructor. Another thing is that if we will declare static constructor then we can not access/call the constructor from a subclass. Because we know static is allowed within a class but not by a subclass.
